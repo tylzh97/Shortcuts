@@ -48,7 +48,7 @@ const RHClipboard = {
     <el-input
 	  class="clipboard-input"
       type="textarea"
-      :rows="2"
+      :rows="4"
       placeholder="请输入内容"
       v-model="textarea">
     </el-input>
