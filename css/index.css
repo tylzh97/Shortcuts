@@ -1,0 +1,61 @@
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+	width: 200px;
+	min-height: 400px;
+}
+
+.test {
+	position: absolute; bottom: 10px;
+}
+
+#app {
+	height: 100%;
+	width: 100%;
+}
+
+.left-nav {
+	flex: 0 0;
+	height: 100%;
+	float: left;
+}
+
+.left-nav .nav-footer {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	color: #999;
+	border-top: 1px solid #888;
+	position: absolute;
+	bottom: 0px;
+}
+
+.left-nav  .nav-footer:hover {
+	color: #409EFF;
+}
+
+.left-nav  .nav-footer .iconfont {
+	font-size: 26px;
+}
+
+.mainboard {
+	/* background-color: pink; */
+	flex: 1;
+	padding-top: 25px;
+	height: 100%;
+	overflow: auto;
+}
+
+.mainboard .main-view {
+	width: 90%;
+	/* background-color: greenyellow; */
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.block {
+	padding: 10px;
+}
+
+.block .clipboard-input {
+	margin-bottom: 10px;
+}
