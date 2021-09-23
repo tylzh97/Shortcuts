@@ -20,7 +20,7 @@ const RHNavigator = {
 	`,
 	data: () => {
 		return {
-			isCollapse: true
+			isCollapse: false
 		}
 	},
 	methods: {
